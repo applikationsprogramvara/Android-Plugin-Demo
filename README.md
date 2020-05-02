@@ -4,6 +4,7 @@ The code is still working in 2020 on Android 10.
 Some observations:
 - Running library module from Android Studio is not working using standard Run button. To install it use an item from Gradle pane library / install / installDebug.
 - Feeding variables with simple and standard classes to remote function is working just fine. The problem is starting when trying to feed complex custom classes. You will get java.lang.reflect.InvocationTargetException due to different class loader in the plugin apk.
+- Also build failed with the top notch gradle and gradle plugin versions (6.3 and 4.1.0-alpha07). Last stable versions though were ok (5.6.4 and 3.6.3).
 
 
 # Android Plugin Demo
